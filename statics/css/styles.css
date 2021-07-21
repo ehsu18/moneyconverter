@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+
+.header .titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    color: #579e56;
+}
+
+.header .titulo h1 {
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.main .container {
+    display: block;
+}
+
+
+.main input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #579e56;
+    padding: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.main .seleccio {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .seleccion select {
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+    outline: none;
+    margin: auto;
+}
+
+.main .seleccon .equivalente p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Convertidor De Moneda</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+	<script src="https://kit.fontawesome.com/c74d68a91e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="titulo">
+			<h1>CONVERTIDOR DE MONEDA</h1>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+			<input type="text">
+			<div class="seleccion">
+				<select	name="coins">
+					<option value="USD">Dolares Estadounidenses</option>
+					<option value="COP">Pesos Colombianos</option>	
+					<option value="BsS">Bolivares Soberanos</option>
+				</select>
+			<div class="equivalente">
+				<p>Equivalente</p>
+				<p>157.4545.125 <sup>52</sup></p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
